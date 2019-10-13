@@ -1,0 +1,20 @@
+#ifndef __KEYBOARD_H
+#define __KEYBOARD_H
+
+
+#ifdef LAB3
+int sys_inb_cnt(port_t port, uint32_t *byte);
+#else
+#define sys_inb_cnt(p,q) sys_inb(p,q)
+#endif
+
+
+int (keyboard_subscribe)(uint8_t *bit_no);
+int (keyboard_unsubscribe)();
+int (keyboard_read)();
+int (keyboard_write)(); 
+int (keyboard_display_scans)(); 
+
+
+
+#endif /* __TIMER_H */
