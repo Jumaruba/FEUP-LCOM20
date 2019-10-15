@@ -10,10 +10,12 @@
 #include "timer.h"
 #include "utils.h"
 
-
-extern uint8_t data; 
-extern uint8_t sys_counter; 
+ 
+extern uint32_t sys_counter; 
 extern int counter;
+extern uint8_t code_bytes[2];
+extern int hook_id; 
+extern uint8_t data; 
 
 int main(int argc, char *argv[]) {
   // sets the language of LCF messages (can be either EN-US or PT-PT)
@@ -56,9 +58,8 @@ int(kbd_test_scan)() {
       switch (_ENDPOINT_P(msg.m_source)) {
         case HARDWARE:        
           if (msg.m_notify.interrupts & irq_set) { 
-            //to do if interrupt is detected
             keyboard_handler();
-            keyboard_display_scans();            
+            keyboard_display_scans(&data); 
           }
         break;
         default:
@@ -76,17 +77,18 @@ int(kbd_test_scan)() {
 
 
 int(kbd_test_poll)() {
-  uint8_t commandByte; 
+  uint8_t commandByte;  
 
   while ( data != KBC_KC_ESC ){
-    keyboard_handler(); 
-    keyboard_display_scans(); 
+    
+    keyboard_handler();
+    keyboard_display_scans(&data); 
   }
 
   // enable the interrupt again
   if (keyboard_write(IN_BUF, KBC_CMD_R)) return 1;        //writing we want to read the command byte
-  if (keyboard_read()) return 1;                          //read the command byte
-  commandByte = data;                                     //store the command byte
+  if (keyboard_read()) return 1;                           //read the command byte            
+  commandByte = data;                 
   commandByte|= KBC_CMD_INT;                              //set int variable to 1
   if (keyboard_write(IN_BUF, KBC_CMD_W)) return 1;        //writing we want to write a command byte
   if (keyboard_write(WRITE_CMD, commandByte)) return 1;   //writing the command byte
@@ -99,7 +101,8 @@ int(kbd_test_timed_scan)(uint8_t n) {
   message msg; 
   int r; 
   int ipc_status; 
-  uint8_t irq_set,irq_timer0;
+  uint8_t irq_set;
+  uint8_t irq_timer0;
   int idle = n*60;
 
   if(keyboard_subscribe(&irq_set) != 0) return 1; 
@@ -118,7 +121,7 @@ int(kbd_test_timed_scan)(uint8_t n) {
           }
           if(msg.m_notify.interrupts & irq_set){
             keyboard_handler();
-            keyboard_display_scans();
+            keyboard_display_scans(&data); 
             counter = 0; 
 
           }        
@@ -131,7 +134,7 @@ int(kbd_test_timed_scan)(uint8_t n) {
       continue;
     }
   }
-    if(timer_unsubscribe_int() != 0) return 1;
     if(keyboard_unsubscribe() != 0)  return 1;
+    if(timer_unsubscribe_int() != 0) return 1;
     return 0;
 }

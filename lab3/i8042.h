@@ -24,7 +24,7 @@
 #define KBC_TO_ERR		BIT(6)		/**< @brief timeout error bit*/
 #define KBC_MOUSE 		BIT(5)		/**< @brief mouse bit */
 #define KBC_KC_ESC 		0x81
-#define KBC_CMD_INT		BIT(1)
+#define KBC_CMD_INT		BIT(0)
 
 //enough?
 #define TRIES	 		20
