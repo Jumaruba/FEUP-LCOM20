@@ -9,9 +9,8 @@ uint8_t code_bytes[2];
 uint8_t size = 0; 
 bool isTwoBytes; 
 int KC_hook_id = 1; 
-bool type; 
 
-int sys_inb_cnt(port_t port, uint32_t *byte){
+int sys_inb_cnt(port_t port, uint32_t *byte){ //Auxiliar function to call sys_inb and update sys_counter variable
 	sys_counter++;
 	return sys_inb(port, byte); 
 }
@@ -35,16 +34,16 @@ int keyboard_unsubscribe(){
 int keyboard_read(){
 	//first, must send a command
 	uint32_t stat; 
-	for (int i = 0; i < TRIES; i++){
+	for (int i = 0; i < TRIES; i++){//Loop for TRIES times
 		
 		if(sys_inb_cnt(STAT_REG, &stat)) continue;		//read status, case error try again 
 		
-		if (stat & KBC_OBF){
+		if (stat & KBC_OBF){ //Checks if output buffer is empty
 			if (sys_inb_cnt(OUT_BUF, (uint32_t*)&data)) continue;	//read data, case error try again 
 			if (!(stat & (KBC_PAR_ERR | KBC_TO_ERR| KBC_MOUSE))) return 0; 
 			else return 1;  
 		}
-		tickdelay(micros_to_ticks(DELAY_US)); 
+		tickdelay(micros_to_ticks(DELAY_US)); //Delays next iteration
 	}
 	
 	return 1;
@@ -52,7 +51,7 @@ int keyboard_read(){
 }
 
 
-void keyboard_handler(){
+void keyboard_handler(){//Calls keyboard_read() function
 	keyboard_read(); 
   }
 
@@ -60,38 +59,43 @@ void keyboard_handler(){
 int keyboard_write(uint8_t addr,uint8_t byte){
 	uint32_t status;
 	
-	for(int i = 0;i<TRIES;i++){
-		if(sys_inb_cnt(STAT_REG, &status) != 0) continue; //error reading status,try again
+	for(int i = 0;i<TRIES;i++){ // Loops for number of tries
+		if(sys_inb_cnt(WRITE_CMD, &status) != 0) continue; /*
+		write status from register to status variable*/
 		
-		if(!(status & KBC_IBF)){
+		if(!(status & KBC_IBF)){ // Checks if input buffer is not full
 			if(sys_outb(addr,byte) != 0) continue; //error writing to register,retry
 			if (!(status & (KBC_PAR_ERR | KBC_TO_ERR| KBC_MOUSE))) return 0; 
 			else return -1; 
 		}
-		tickdelay(micros_to_ticks(DELAY_US));
+		tickdelay(micros_to_ticks(DELAY_US)); //delays next iteration
 	}
 
 	return -1;
 }
 
 int keyboard_display_scans(uint8_t* data){
-	if (*data == 0xE0){
+	bool type; 
+	if (*data == 0xE0){ //If data == 0xE0, next byte to be read is the second byte from this scancode
 		isTwoBytes = true; 
 		code_bytes[0] = 0xe0; 
  	}
 
- 	else if (isTwoBytes){
+ 	else if (isTwoBytes){ //If the scan code has two bytes, write bytes to code_bytes and calls print function
  		code_bytes[1] = *data;
  		type = !(*data & 0x80); 
- 		size = 2; 
- 		isTwoBytes = false; 	
+ 		kbd_print_scancode(type, 2 ,code_bytes);
+ 		isTwoBytes = false; 
+ 		code_bytes[0] = 0x00; 
+ 		code_bytes[1] = 0x00; 
  	}
- 	else{
+ 	else{ // If the scancode has only one byte, writes 0x00 to second byte and calls print function
  		isTwoBytes = false; 
  		code_bytes[0] = *data; 
  		type = !(*data & 0x80); 
- 		size = 1; 
- 		
+ 		kbd_print_scancode(type, 1, code_bytes); 
+ 		code_bytes[0] = 0x00; 
+ 		code_bytes[1] = 0x00; 
  	}
  	return 0; 
 

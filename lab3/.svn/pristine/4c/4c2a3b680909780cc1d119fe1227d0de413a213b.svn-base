@@ -86,7 +86,7 @@ int(kbd_test_poll)() {
 
   while ( data != KBC_KC_ESC ){
     
-    while (keyboard_read());
+    keyboard_handler();
     keyboard_display_scans(&data);
     if (!isTwoBytes) 
       kbd_print_scancode(type, size, code_bytes);  

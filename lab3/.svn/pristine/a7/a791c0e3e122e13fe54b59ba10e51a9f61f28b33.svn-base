@@ -16,9 +16,7 @@ extern int counter;
 extern uint8_t code_bytes[2];
 extern int hook_id; 
 extern uint8_t data; 
-extern bool isTwoBytes; 
-extern bool type; 
-extern uint8_t size; 
+
 
 int main(int argc, char *argv[]) {
   // sets the language of LCF messages (can be either EN-US or PT-PT)
@@ -52,7 +50,7 @@ int(kbd_test_scan)() {
 
   if(keyboard_subscribe(&irq_set) != 0) return 1; 
 
-  while( data != KBC_KC_ESC) { 
+  while( data != KBC_KC_ESC) { //While key pressed isnt ESC
     if ( (r = driver_receive(ANY, &msg, &ipc_status)) != 0 ) { 
       //printf("driver_receive failed with: %d", r);
       continue;
@@ -61,10 +59,8 @@ int(kbd_test_scan)() {
       switch (_ENDPOINT_P(msg.m_source)) {
         case HARDWARE:        
           if (msg.m_notify.interrupts & irq_set) { 
-            keyboard_handler();
-            keyboard_display_scans(&data); 
-            if (!isTwoBytes) 
-              kbd_print_scancode(type, size, code_bytes); 
+            keyboard_handler(); //calls keyboard read;
+            keyboard_display_scans(&data); //calls print function
           }
         break;
         default:
@@ -86,12 +82,9 @@ int(kbd_test_poll)() {
 
   while ( data != KBC_KC_ESC ){
     
-    while (keyboard_read());
-    keyboard_display_scans(&data);
-    if (!isTwoBytes) 
-      kbd_print_scancode(type, size, code_bytes);  
+    keyboard_handler();
+    keyboard_display_scans(&data); 
   }
-  kbd_print_no_sysinb(sys_counter);
 
   // enable the interrupt again
   if (keyboard_write(IN_BUF, KBC_CMD_R)) return 1;        //writing we want to read the command byte
@@ -101,7 +94,7 @@ int(kbd_test_poll)() {
   if (keyboard_write(IN_BUF, KBC_CMD_W)) return 1;        //writing we want to write a command byte
   if (keyboard_write(WRITE_CMD, commandByte)) return 1;   //writing the command byte
 
-  
+  kbd_print_no_sysinb(sys_counter);
   return 0;
 }
 
@@ -111,27 +104,25 @@ int(kbd_test_timed_scan)(uint8_t n) {
   int ipc_status; 
   uint8_t irq_set;
   uint8_t irq_timer0;
-  int idle = n*60;
+  int idle = n*60; //Because timer frequency is 60Hz,so required time shoudl be multiplied by 60
 
   if(keyboard_subscribe(&irq_set) != 0) return 1; 
   if(timer_subscribe_int(&irq_timer0) != 0) return 1;
 
-  while( data != KBC_KC_ESC && counter<idle ) { 
+  while( data != KBC_KC_ESC && counter<idle ) { //If no key is pressed after idle seconds or ESC is pressed
     if ( (r = driver_receive(ANY, &msg, &ipc_status)) != 0 ) { 
       continue;
     }
     if (is_ipc_notify(ipc_status)) { 
       switch (_ENDPOINT_P(msg.m_source)) {
         case HARDWARE:        
-          if (msg.m_notify.interrupts & irq_timer0) { 
+          if (msg.m_notify.interrupts & irq_timer0) { //handles timer interrupt
             timer_int_handler();
 
           }
-          if(msg.m_notify.interrupts & irq_set){
+          if(msg.m_notify.interrupts & irq_set){ //if key is pressed,resets timer;
             keyboard_handler();
-            keyboard_display_scans(&data);
-            if (!isTwoBytes) 
-              kbd_print_scancode(type, size, code_bytes); 
+            keyboard_display_scans(&data); 
             counter = 0; 
 
           }        
