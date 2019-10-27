@@ -1,0 +1,128 @@
+#include <lcom/lcf.h>
+#include "i8042.h"
+#include "i8254.h"
+#include "mouse.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdint.h>
+
+
+int mouse_hook_id = 12; 
+
+
+void (mouse_ih)(void){
+	mouse_read(); 
+}
+
+int mouse_subscribe(uint8_t *bit_no){
+	*bit_no = BIT(mouse_hook_id); 
+	if (sys_irqsetpolicy(KB12_IRQ, IRQ_REENABLE | IRQ_EXCLUSIVE, &mouse_hook_id ) != OK)
+		return 1; 
+	return 0; 
+}
+
+int mouse_unsubscribe(){
+	if (sys_irqdisable(&mouse_hook_id) != OK)
+		return 1; 
+	if (sys_irqrmpolicy(&mouse_hook_id) != OK)
+		return 1; 
+	return 0; 
+}
+
+int mouse_issueCommand(uint8_t byte){
+	uint32_t status; 
+	uint32_t ack; 
+	
+	for(int i = 0;i<TRIES;i++){
+		if(sys_inb(STAT_REG, &status) != OK) continue; 	//*0x64 -> status
+		if(status & KBC_IBF) continue; 					//if the input buffer is full
+		
+		if(sys_outb(IN_BUF, WRITE_BYTE) != OK)return 1; //write the command to foward the arguments. 0x64 <-0xD4
+			
+		if(sys_inb(STAT_REG, &status)!= OK )return 1; 	//*0x64 -> status
+		if(status & KBC_IBF) continue;					//input buf full
+
+		if (sys_outb(OUT_BUF, byte)!= OK)return 1;		//write the command. 0x64 <- command
+		
+		if(sys_inb(STAT_REG, &status)!= OK )return 1; 
+		if(!((status & KBC_OBF) && (status &KBC_MOUSE))) continue;  	//checks if the outbuf iss full and aux bit is set
+		if (!sys_inb(OUT_BUF, &ack) != OK) return 1;					//read the ack 
+		if(ack == ERROR) return 1; 										//if error, needs to repeat all the process
+		if (ack == ACK) return 0; 
+	
+	}
+
+	return -1;
+}
+
+
+int mouse_read(){
+	uint32_t stat; 
+	for (int i = 0; i < TRIES; i++){
+		
+		if(sys_inb(STAT_REG, &stat)) continue;					//read status, case error try again 
+		
+		if(stat & KBC_OBF & KBC_MOUSE){							//needs to be data from the mouse
+			if (sys_inb(OUT_BUF, (uint32_t*)&data)) continue;	//read data, case error try again 
+			if(!(stat & (KBC_PAR_ERR | KBC_TO_ERR) )) return 0; 
+			else return 1;  
+		}
+		tickdelay(micros_to_ticks(DELAY_US)); 
+	}
+	
+	return 1;
+	//then read the status
+}
+
+int normal_write(uint8_t addr,uint8_t byte){
+	uint32_t status;
+	
+	for(int i = 0;i<TRIES;i++){
+		if(sys_inb(STAT_REG, &status) != 0) continue; //error reading status,try again
+		
+		if(!(status & KBC_IBF)){
+			if(sys_outb(addr,byte) != 0) continue; //error writing to register,retry
+			if (!(status & (KBC_PAR_ERR | KBC_TO_ERR| KBC_MOUSE))) return 0; 
+			else return -1; 
+		}
+		tickdelay(micros_to_ticks(DELAY_US));
+	}
+
+	return -1;
+}
+
+void parseBytes(struct packet *pp){
+
+	pp->bytes[0] = bytes[0]; 
+	pp->bytes[1] = bytes[1]; 
+	pp->bytes[2] = bytes[2]; 
+	pp->rb = (bytes[0] & RB); 
+	pp->mb = (bytes[0] & MB); 
+	pp->lb = (bytes[0] & LB); 
+	pp->x_ov=(bytes[0] & X_OVFL) ? true: false; 
+	pp->y_ov=(bytes[0] & Y_OVFL) ? true: false; 
+	pp->delta_x = (bytes[0] & MSB_X_DELTA) ? (0xFF00 | bytes[1]) :(bytes[1]); 
+	pp->delta_y = (bytes[0] & MSB_Y_DELTA) ? (0xFF00 | bytes[2]) :(bytes[2]);
+
+}
+
+void syncPacks(){
+	switch(countByte){
+		case 1: 
+			if (BIT(3) && data){
+				bytes[0] = data; 
+				countByte ++; 
+			}
+			break; 
+		case 2: 
+			bytes[1] = data; 
+			countByte ++; 
+			break; 
+		case 3: 
+			bytes[2] = data; 
+			countByte ++; 
+			break; 
+	}
+	
+}

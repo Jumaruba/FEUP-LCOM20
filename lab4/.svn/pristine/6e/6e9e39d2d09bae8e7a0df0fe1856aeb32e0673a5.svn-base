@@ -1,0 +1,16 @@
+#ifndef __MOUSE_H
+#define __MOUSE_H
+
+
+
+
+void (mouse_ih)(void);
+int mouse_read(); 
+int mouse_subscribe(uint8_t *bit_no);
+int mouse_unsubscribe();
+void syncPacks(); 
+void parseBytes(struct packet *pp); 
+int mouse_issueCommand(uint8_t byte); 
+int normal_write(uint8_t addr,uint8_t byte); 
+
+#endif /* __TIMER_H */
