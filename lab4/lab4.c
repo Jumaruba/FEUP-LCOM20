@@ -62,13 +62,12 @@ int(mouse_test_packet)(uint32_t cnt)
     }
 
     if (is_ipc_notify(ipc_status))
-    { /* received notification */
+    {
       switch (_ENDPOINT_P(msg.m_source))
       {
-      case HARDWARE: /* hardware interrupt notification */
+      case HARDWARE:
         if (msg.m_notify.interrupts & irq_set)
         { 
-          /* subscribed interrupt */
           mouse_ih();
           handleSync();
           if(counter == 3){
@@ -81,12 +80,11 @@ int(mouse_test_packet)(uint32_t cnt)
         }
         break;
       default:
-        break; /* no other notifications expected: do nothing */
+        break;
       }
     }
     else
-    { /* received a standard message, not a notification */
-      /* no standard messages expected: do nothing */
+    { 
     }
   }
 
@@ -96,8 +94,27 @@ int(mouse_test_packet)(uint32_t cnt)
   return 0;
 }
 
+//remote mode
 int(mouse_test_remote)(uint16_t period, uint8_t cnt)
 {
+  //we don't need to subscribe, because we are sending a command to the kbc telling it to send information from the mouse
+  while (cnt > 0){
+    tickdelay(micros_to_ticks(period*1000));        //reads the information upon a period. Dealay is in ms*10^(-3)
+    if(issueCommand(READ_DATA)) return 1;           //request to read the three bytes
+    cnt--; 
+    while (counter < 3){  
+      if (mouse_read()) return 1;                   //information goes to data variable
+      handleSync();                                 //store information at byteArray
+    }
+    counter = 0; 
+    parsePacket();                                  //store the information at the struct pp 
+    mouse_print_packet(&pp);                        //prints the data
+  }
+  if(issueCommand(SET_STREAM_MODE)) return 1;       //set the stream mode again
+  if(issueCommand(REP_DISABLE)) return 1;           //ensure that data report is disabled
+  uint8_t default_cmd = minix_get_dflt_kbc_cmd_byte();  //getting the default command
+  if(kbc_write(IN_BUF, KBC_CMD_W)) return 1;        //tell the KBC we want to write a command
+  if(kbc_write(OUT_BUF, default_cmd)) return 1;     //send the default command byte to the kbc
 	return 0; 
 }
 

@@ -14,7 +14,7 @@
 #define X_OVFL          BIT(6)
 #define Y_OVFL          BIT(7)
 
-//commands
+//commands KBC
 #define KBC_CMD_R 		0x20		/**< @brief command to read*/
 #define KBC_CMD_W 		0x60		/**< @brief command to write*/
 
@@ -28,18 +28,18 @@
 #define ACK             0xFA	
 #define NACK            0xFE
 
-//mouse arguments command
-#define REP_ENABLE    	0xF4
-#define REP_DISABLE   	0xF5
-
-
 #define KBC_KC_ESC 		0x81
 
 //register read and write
 #define STAT_REG        0x64 
 
+//mouse commands
 #define MOUSE_ENABLE    0xA8 
 #define WRITE_TO_MOUSE  0xD4 
+#define READ_DATA       0xEB
+#define REP_ENABLE    	0xF4
+#define REP_DISABLE   	0xF5
+#define SET_STREAM_MODE 0xEA
 
 //Status register macros 
 #define KBC_PAR_ERR		BIT(7)		/**< @brief parity error bit--	check if there is an error of parity*/

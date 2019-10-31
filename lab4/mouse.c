@@ -1,7 +1,5 @@
 #include "mouse.h"
 #include <lcom/lcf.h>
-#include "i8042.h"
-#include <stdint.h>
 #include <stdio.h>
 
 extern uint16_t byteArray[3];
@@ -26,6 +24,24 @@ void(mouse_ih)(void)
 {
   mouse_read(); 
 }
+
+//issue command to the kbc
+int kbc_write(uint8_t addr,uint8_t byte){
+	uint32_t status;
+	
+	for(int i = 0;i<TRIES;i++){
+		if(sys_inb(STAT_REG, &status) != 0) continue; //error reading status,try again
+		
+		if((status & KBC_IBF)) continue; 
+		if(sys_outb(addr,byte) != 0) continue; //error writing to register,retry
+		if (!(status & (KBC_PAR_ERR | KBC_TO_ERR))) return 0; 
+		else return -1; 
+    
+	}
+
+	return -1;
+}
+
 
 int mouse_read(){
   uint32_t status; 
@@ -53,6 +69,7 @@ void parsePacket()
   pp.delta_y = (byteArray[0]&NEG_Y) ? (0xFF00 |byteArray[2]) : byteArray[2];
 }
 
+//issue a command to the mouse
 int issueCommand(unsigned long cmd)
 {
   uint32_t status, ack;
