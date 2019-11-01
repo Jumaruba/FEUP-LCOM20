@@ -133,36 +133,3 @@ int resetKBC(){
   if(kbc_write(OUT_BUF,cmd) != OK) return 1;
   return 0;
 }
-
-
-
-
-void mouse_event(events *event,states state){
-  switch(state){
-    case INIT:
-      if(pp.lb && !pp.mb && !pp.rb) *event = LB_DN;
-      else if(pp.mb || pp.rb) *event = BUTTON_E;
-      else *event = MOUSE_MV;
-      break;
-    case FIRSTL:
-      if(!pp.rb && !pp.mb && pp.lb) *event = MOUSE_MV;
-      else if(!pp.lb) *event = LB_UP;
-      else *event = BUTTON_E;
-      break;
-    case VERTEX:
-      if(pp.rb && !pp.mb && !pp.lb) *event = RB_DN;
-      else if(pp.mb || pp.lb) *event = BUTTON_E;
-      else *event = MOUSE_MV;
-      break;
-    case SECONDL:
-      if(!pp.rb && !pp.mb && !pp.lb){ *event = RB_UP;
-        printf("RIGHT UP\n"); }
-      else if(pp.mb || pp.lb) *event = BUTTON_E;
-      else *event = MOUSE_MV;
-      break;
-    default:
-      *event = MOUSE_MV;
-      break;
-  }
-  return;
-}

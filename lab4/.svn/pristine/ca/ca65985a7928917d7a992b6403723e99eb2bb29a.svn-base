@@ -155,8 +155,7 @@ void mouse_event(events *event,states state){
       else *event = MOUSE_MV;
       break;
     case SECONDL:
-      if(!pp.rb && !pp.mb && !pp.lb){ *event = RB_UP;
-        printf("RIGHT UP\n"); }
+      if(!pp.rb && !pp.mb && !pp.lb) *event = RB_UP;
       else if(pp.mb || pp.lb) *event = BUTTON_E;
       else *event = MOUSE_MV;
       break;

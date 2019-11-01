@@ -10,19 +10,11 @@ typedef enum {
 	INIT,
 	FIRSTL,
 	VERTEX,
+	RESIDUE,
 	SECONDL,
 	FINAL
 }states;
 
-typedef enum {
-
-	LB_UP,
-	LB_DN,
-	RB_UP,
-	RB_DN,
-	BUTTON_E,
-	MOUSE_MV
-}events;
 typedef struct state_machine{
 	double prevS;
 	double actualS;
@@ -42,6 +34,5 @@ int issueCommand(unsigned long cmd);        //it issues a command to the mouse
 int kbc_write(uint8_t addr,uint8_t byte);   //it issues a command to the kbc
 void handleSync();                          //it handles the three bytes
 int resetKBC();								//resets kbc commmand to default
-void mouse_event(events *event,states state);
 
 #endif

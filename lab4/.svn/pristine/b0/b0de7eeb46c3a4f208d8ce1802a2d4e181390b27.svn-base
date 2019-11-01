@@ -205,9 +205,7 @@ int(mouse_test_gesture)(uint8_t x_len, uint8_t tolerance)
   machine.prevS = 0;
   machine.prevX = 0.0;
   machine.prevY = 0.0;
-  events event;
-  int8_t dX,dY;
-  uint16_t displacement = 0;
+
   if (issueCommand(REP_ENABLE) != 0) return 1;
 
   if (mouse_subscribe_int(&irq_set) != 0) return 1;
@@ -235,61 +233,9 @@ int(mouse_test_gesture)(uint8_t x_len, uint8_t tolerance)
             counter = 0; 
             parsePacket();
             mouse_print_packet(&pp);
-            mouse_event(&event,state); 
-            dX = pp.delta_x;
-            dY = pp.delta_y;
-            switch(state){
-              case INIT:
-                printf ("displacement: %d, x_len: %d\n", displacement, x_len); 
-                if(event == LB_DN){
-                  displacement = 0;
-                  state = FIRSTL;
-                }
-                break;
-              case FIRSTL:
-                printf ("displacement: %d, x_len: %d\n", displacement, x_len); 
-                displacement+=abs(dX);
-                if(event == LB_UP && displacement>=x_len) state = VERTEX;
-                else if(event == BUTTON_E) state = INIT;
-                else if((dX < 0 && abs(dX) > tolerance) || (dY < 0 && abs(dY) > tolerance) || abs(dY) < abs(dX)){
-                  state = INIT;
-                }
-                break;
-              case VERTEX:
-                printf ("displacement: %d, x_len: %d\n", displacement, x_len); 
-                if(event == RB_DN){
-                  displacement = 0;
-                  state = SECONDL;
-                }
-                else if(event == LB_DN){
-                  displacement = 0;
-                  state = FIRSTL;
-                }
-                else if((event == MOUSE_MV) && (( abs(dX) > tolerance) || (dY < 0 && abs(dY) > tolerance) || (abs(dY) < abs(dX)))){
-                  state = INIT;
-                }
-
-                else if(event == BUTTON_E) state = INIT;
-                break;
-              case SECONDL:
-                displacement += abs(dX);
-                printf ("displacement: %d, x_len: %d\n", displacement, x_len); 
-                if(event == RB_UP && displacement >=  x_len) {
-                  state = FINAL;
-                  printf("HA\n");
-                }
-                else if(event != MOUSE_MV) state = INIT;
-                else if((dX < 0 && abs(dX) > tolerance) || (dY < 0 && abs(dY) > tolerance) || abs(dY) < abs(dX)){
-                  state = INIT;
-                }
-                
-                break;
-              default:
-                break;
-
-            } 
+            mouse_event(); 
           }
-          printf("state: %d\n", state);
+
         }
         break;
       default:
@@ -298,13 +244,11 @@ int(mouse_test_gesture)(uint8_t x_len, uint8_t tolerance)
     }
     else
     { 
-      printf("VAI SE FUDER\n");
     }
   }
-  printf("FINAL  \n"); 
+
   if (mouse_unsubscribe_int() != 0) return 1;
   if (issueCommand(REP_DISABLE) != 0)  return 1;
-  printf("PICUINHA\n"); 
 
   return 0;
 }
