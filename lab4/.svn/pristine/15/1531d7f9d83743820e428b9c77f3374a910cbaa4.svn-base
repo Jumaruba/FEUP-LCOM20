@@ -137,7 +137,7 @@ int resetKBC(){
 
 
 
-void mouse_event(events *event){
+void mouse_event(events *event,states state){
   if(pp.lb && !pp.mb && !pp.rb) *event = LB_DN; 
   else if(!pp.lb && !pp.mb && !pp.rb && *event == LB_DN) *event = LB_UP; 
   else if(!pp.lb && !pp.mb && pp.rb) *event = RB_DN; 

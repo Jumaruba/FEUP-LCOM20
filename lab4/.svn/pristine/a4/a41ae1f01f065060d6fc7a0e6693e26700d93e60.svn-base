@@ -43,6 +43,6 @@ int issueCommand(unsigned long cmd);        //it issues a command to the mouse
 int kbc_write(uint8_t addr,uint8_t byte);   //it issues a command to the kbc
 void handleSync();                          //it handles the three bytes
 int resetKBC();								//resets kbc commmand to default
-void mouse_event(events *event);
+void mouse_event(events *event,states state);
 
 #endif

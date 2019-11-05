@@ -221,7 +221,7 @@ int(mouse_test_gesture)(uint8_t x_len, uint8_t tolerance)
             counter = 0; 
             parsePacket();
             mouse_print_packet(&pp);
-            mouse_event(&event); 
+            mouse_event(&event,state); 
             dX = pp.delta_x;
             dY = pp.delta_y;
             switch(state){
