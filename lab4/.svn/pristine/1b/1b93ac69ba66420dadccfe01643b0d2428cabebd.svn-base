@@ -263,6 +263,7 @@ int(mouse_test_gesture)(uint8_t x_len, uint8_t tolerance)
                 else if(event == RB_UP  && displacement <  x_len) state = INIT;
                 else if(event == BUTTON_E) state = INIT; 
                 else if((dX < 0 && abs(dX) > tolerance) || (dY < 0 && abs(dY) > tolerance) || abs(total_y) < abs(total_x)) state = INIT;
+                printf("FINAL\n"); 
                 
                 break;
               default:
