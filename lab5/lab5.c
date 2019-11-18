@@ -6,10 +6,20 @@
 #include <sys/mman.h>
 #include <stdio.h>
 #include "lcom/pixmap.h"
+#include "vbe.h"
 #include "graphic.h"
+#include "sprite.h"
+#include "keyboard.h"
+#include "i8042.h"
+
+
+
 
 // Any header files included below this line should have been created by you
-
+int XBOUND=100000;
+int YBOUND=100000;
+extern uint8_t data; 
+extern int contador;
 int main(int argc, char *argv[]) {
   // sets the language of LCF messages (can be either EN-US or PT-PT)
   lcf_set_language("EN-US");
@@ -36,6 +46,7 @@ int main(int argc, char *argv[]) {
 
 int(video_test_init)(uint16_t mode, uint8_t delay) {
 
+  //getPermission();
   if (init_mode(mode)) return 1; 
   sleep(delay); 
   if (vg_exit()) return 1; 
@@ -45,40 +56,200 @@ int(video_test_init)(uint16_t mode, uint8_t delay) {
 
 int(video_test_rectangle)(uint16_t mode, uint16_t x, uint16_t y,
                           uint16_t width, uint16_t height, uint32_t color) {
-  /* To be completed */
-  printf("%s(0x%03X, %u, %u, %u, %u, 0x%08x): under construction\n",
-         __func__, mode, x, y, width, height, color);
+  
 
-  return 1;
+  if (vg_init(mode) == NULL) return 1; 
+  vbe_mode_info_t mode_info;
+  vbeModeInfo(mode,&mode_info);
+  XBOUND = mode_info.XResolution;
+  YBOUND = mode_info.YResolution;
+  vg_draw_rectangle(x, y, width, height, color);
+  
+  //vg_draw_rectangle(x, y, width, height, color);                  //draw the rectangle 
+  
+  message msg; 
+  int r; 
+  int ipc_status; 
+  uint8_t irq_set; 
+  
+
+  if(keyboard_subscribe(&irq_set) != 0) return 1;                 //interrupt upon keyboard use
+
+  while( data != KBC_KC_ESC) { 
+    if ( (r = driver_receive(ANY, &msg, &ipc_status)) != 0 ) { 
+      continue;
+    }
+    if (is_ipc_notify(ipc_status)) { 
+      switch (_ENDPOINT_P(msg.m_source)) {
+        case HARDWARE:        
+          if (msg.m_notify.interrupts & irq_set) { 
+            keyboard_handler();
+          }
+        break;
+        default:
+          break;  
+      }
+    } else{ 
+      continue;
+    }
+  }
+  
+  if(keyboard_unsubscribe()) return 1;    
+  if(vg_exit()) return 1; 
+  return 0;
 }
 
 int(video_test_pattern)(uint16_t mode, uint8_t no_rectangles, uint32_t first, uint8_t step) {
-  /* To be completed */
-  printf("%s(0x%03x, %u, 0x%08x, %d): under construction\n", __func__,
-         mode, no_rectangles, first, step);
+  message msg; 
+  int r; 
+  int ipc_status; 
+  uint8_t irq_set; 
+  if (vg_init(mode) == NULL) return 1;
+  vbe_mode_info_t mode_info;
+  vbeModeInfo(mode,&mode_info);
+  if(drawPattern(mode,no_rectangles,first,step,&mode_info)) return 1;
+   
+  if(keyboard_subscribe(&irq_set) != 0) return 1;                 //interrupt upon keyboard use
 
-  return 1;
+  while( data != KBC_KC_ESC) { 
+    if ( (r = driver_receive(ANY, &msg, &ipc_status)) != 0 ) { 
+      continue;
+    }
+    if (is_ipc_notify(ipc_status)) { 
+      switch (_ENDPOINT_P(msg.m_source)) {
+        case HARDWARE:        
+          if (msg.m_notify.interrupts & irq_set) { 
+            keyboard_handler();
+          }
+        break;
+        default:
+          break;  
+      }
+    } else{ 
+      continue;
+    }
+  }
+  
+  if(keyboard_unsubscribe()) return 1;    
+  if(vg_exit()) return 1; 
+  return 0;
 }
 
 int(video_test_xpm)(xpm_map_t xpm, uint16_t x, uint16_t y) {
-  /* To be completed */
-  printf("%s(%8p, %u, %u): under construction\n", __func__, xpm, x, y);
+  uint8_t *mem_video; 
+  mem_video = vg_init(INDEX_MODE);
+  
+  if (mem_video == NULL) return 1;  
+  
+  drawXpm(xpm, x, y); 
+  message msg; 
+  int r; 
+  int ipc_status; 
+  uint8_t irq_set; 
+  
 
-  return 1;
+  if(keyboard_subscribe(&irq_set) != 0) return 1;                 //interrupt upon keyboard use
+
+  while( data != KBC_KC_ESC) { 
+    if ( (r = driver_receive(ANY, &msg, &ipc_status)) != 0 ) { 
+      continue;
+    }
+    if (is_ipc_notify(ipc_status)) { 
+      switch (_ENDPOINT_P(msg.m_source)) {
+        case HARDWARE:        
+          if (msg.m_notify.interrupts & irq_set) { 
+            keyboard_handler();
+          }
+        break;
+        default:
+          break;  
+      }
+    } else{ 
+      continue;
+    }
+  }
+  
+  if(keyboard_unsubscribe()) return 1;    
+  if(vg_exit()) return 1; 
+  
+  return 0; 
 }
-
+//fr_rate: number of frames per second => um interrupt de timer = um frame
+//If non-negative: number of pixels between consecutive frames
+//If negative: number of frames required for a 1 pixel movement
 int(video_test_move)(xpm_map_t xpm, uint16_t xi, uint16_t yi, uint16_t xf, uint16_t yf,
                      int16_t speed, uint8_t fr_rate) {
-  /* To be completed */
-  printf("%s(%8p, %u, %u, %u, %u, %d, %u): under construction\n",
-         __func__, xpm, xi, yi, xf, yf, speed, fr_rate);
+  
+  uint16_t required,currentFrame = 0;
+  uint8_t *mem_video = vg_init(INDEX_MODE);
+  vbe_mode_info_t mode_info;
+  vbeModeInfo(INDEX_MODE,&mode_info);
+  uint32_t interrupt_freq = sys_hz()/fr_rate;
+  XBOUND = mode_info.XResolution;
+  YBOUND = mode_info.YResolution;
+  if (mem_video == NULL) return 1;
+  if( speed == 0 || fr_rate > 60) return 1;
+  Sprite *sprite = SpriteInit(xpm,&xi,&xf,&yi,&yf,speed,&required);
+  if(!sprite) return 1;
+  drawXpm(xpm,xi,yi);
+  message msg;
+  int r;
+  int ipc_status;
+  uint8_t irq_set;
+  uint8_t irq_set_timer;
 
-  return 1;
+  if(timer_subscribe_int(&irq_set_timer)) return 1;
+  if(keyboard_subscribe(&irq_set)) return 1;
+  while( data != KBC_KC_ESC) {
+    if ( (r = driver_receive(ANY, &msg, &ipc_status)) != 0 ) {
+      continue;
+    }
+    if (is_ipc_notify(ipc_status)) { 
+      switch (_ENDPOINT_P(msg.m_source)) {
+        case HARDWARE:        
+          if (msg.m_notify.interrupts & irq_set) { 
+            keyboard_handler();
+          }
+          else if (msg.m_notify.interrupts & irq_set_timer) { 
+            timer_int_handler(); 
+            if(contador == (int)interrupt_freq){
+              //if((sprite->x + sprite->width <= mode_info.XResolution) || (sprite->y + sprite->height <= mode_info.YResolution)){
+              currentFrame++;
+              if((sprite->x != xf && sprite->y == yf) || (sprite->x == xf && sprite->y != yf)){
+                //currentFrame++;
+                if(speed > 0){
+                  memset(mem_video, 0, get_bytes()*get_hres()*get_vres());
+                  animate(xpm,sprite,xf,yf,required,&currentFrame,&mode_info);
+                }
+                else{
+                  if(currentFrame == required){
+                     memset(mem_video, 0, get_bytes()*get_hres()*get_vres());
+                     animate(xpm,sprite,xf,yf,required,&currentFrame,&mode_info);
+                     currentFrame = 0;
+                  }
+                }
+                //contador = 0;
+              }//}
+              contador = 0;
+            }
+            
+          }
+        break;
+        default:
+          break;  
+      }
+    } else{ 
+      continue;
+    }
+  }
+  if(keyboard_unsubscribe()) return 1;    
+  if(timer_unsubscribe_int()) return 1;
+  destroy_sprite(sprite); 
+  if(vg_exit()) return 1; 
+  return 0; 
 }
 
 int(video_test_controller)() {
-  /* To be completed */
-  printf("%s(): under construction\n", __func__);
-
-  return 1;
+  get_controller(); 
+  return 0; 
 }
