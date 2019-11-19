@@ -58,6 +58,10 @@ Sprite* SpriteInit(xpm_map_t xpm,uint16_t *xi,uint16_t *xf,uint16_t *yi,uint16_t
     Sprite * res;
     int movementX;
     int movementY;
+    if((*xi == *xf) && *yi == *yf){
+        res = create_sprite(xpm,*xi,*yi,0,0);
+        return res;
+    }
     if (speed > 0){
         if (*yi == *yf){
             movementX = absO(speed)/(abs(*xf -*xi)/(*xf-*xi));

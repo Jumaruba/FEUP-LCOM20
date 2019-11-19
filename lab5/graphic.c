@@ -16,9 +16,9 @@ static uint16_t vres;
 static uint8_t bits_per_pixel; 
 static uint8_t *video_mem; 
 static uint8_t bytes; 
-static uint8_t RedScreenMask; 
-static uint8_t GreenScreenMask; 
-static uint8_t BlueScreenMask; 
+static uint8_t RedMaskSize; 
+static uint8_t GreenMaskSize; 
+static uint8_t BlueMaskSize; 
 extern int XBOUND;
 extern int YBOUND;
 void getPermission() {
@@ -62,9 +62,9 @@ void *(vg_init)(uint16_t mode){
     hres = mode_info.XResolution;                                   //setting static variables
     vres = mode_info.YResolution; 
     bits_per_pixel = mode_info.BitsPerPixel; 
-    GreenScreenMask = mode_info.GreenMaskSize;                      //get mask size 
-    BlueScreenMask = mode_info.BlueMaskSize; 
-    RedScreenMask = mode_info.RedMaskSize; 
+    GreenMaskSize = mode_info.GreenMaskSize;                      //get mask size 
+    BlueMaskSize = mode_info.BlueMaskSize; 
+    RedMaskSize = mode_info.RedMaskSize; 
     bytes = ceil(bits_per_pixel/8); 
 
     int r = 0;
@@ -145,13 +145,13 @@ uint16_t get_vres(){
     return vres; 
 }
 uint16_t get_RedScreenMask(){
-    return RedScreenMask;
+    return RedMaskSize;
 }
 uint16_t get_BlueScreenMask(){
-    return BlueScreenMask; 
+    return BlueMaskSize; 
 }
 uint16_t get_GreenScreenMask(){
-    return GreenScreenMask; 
+    return GreenMaskSize; 
 }
 
 uint8_t get_bits_per_pixel(){   
@@ -174,6 +174,10 @@ void drawXpm(xpm_map_t xpm, uint16_t x, uint16_t y){
     }
 }
 
+uint32_t createMask(int size){ 
+    //uint32_t num = 0xFFFFFFFF;
+    return 0xFF;
+}
 void eraseXpm(xpm_map_t xpm,uint16_t x, uint16_t y){
     xpm_image_t img;
     uint8_t *sprite = xpm_load(xpm, XPM_INDEXED, &img);
@@ -184,7 +188,12 @@ void eraseXpm(xpm_map_t xpm,uint16_t x, uint16_t y){
         }
     } 
 }
-
+int32_t applyMask(uint32_t color,int size){
+    int fixed = 32 - size;
+    color<<=fixed;
+    color>>=fixed;
+    return color;
+}
 int get_controller(){
     
     //VbeInfoBlock  controller_info; 
@@ -256,37 +265,40 @@ int16_t absO(int16_t x){
 int drawPattern(uint16_t mode,uint8_t rect_number,uint32_t first,uint8_t step,vbe_mode_info_t *mode_info){
     if(mode_info == NULL) return 1;
     uint16_t x,y = 0;
-    uint32_t color;
+    uint32_t color = 0;
     uint16_t width = mode_info->XResolution / rect_number;
     uint16_t height = mode_info->YResolution / rect_number;
-    //uint32_t R,G,B;
+    uint32_t R,G,B,red,green,blue;
     uint8_t row = 0, col = 0;
+    //printf("sa");
     if(mode == 0x105){
         for(uint8_t i = 0;i<rect_number;i++){
             x = 0;
             col = 0;
             for(uint8_t j = 0;j<rect_number;j++){
                 //formulae given in documentation
-                color =(first + (row * rect_number + col) * step) % (1 << get_bits_per_pixel());
+                color =(first + (i * rect_number + col) * step) % (1 << get_bits_per_pixel());
                 vg_draw_rectangle(x,y,width,height,color);
                 x+=width;
                 col++;
             }
             y+=height;
-            row++;
         }
     }
-    /*else{
+    else{
+        red = applyMask(first>>mode_info->RedFieldPosition,mode_info->RedMaskSize);
+        green = applyMask(first>>mode_info->GreenFieldPosition,mode_info->GreenMaskSize);
+        blue = applyMask(first>>mode_info->BlueFieldPosition,mode_info->BlueMaskSize);
+
         for(uint8_t i = 0;i<rect_number;i++){
             x = 0;
             col = 0;
             for(uint8_t j = 0;j<rect_number;j++){
                 //formula given in documentation
-                color =(first + (row * rect_number + col) * step) % (1 << get_bits_per_pixel());
-                R = ( first + (col + row) * step) % (1 << get_RedScreenMask());
-                G = (((first >> get_BlueScreenMask()) + row * step) % (1 << (get_GreenScreenMask())));
-                B = (((first >> (get_BlueScreenMask() + get_GreenScreenMask())) + col * step) % (1 << get_BlueScreenMask()));
-                color += R + G + B;
+                R = (red + col*step)%(1<<mode_info->RedMaskSize);
+                G = (green + row*step)%(1<<mode_info->GreenMaskSize);
+                B = (blue + (col+row)*step)%(1<<mode_info->BlueMaskSize);
+                color = (R<<mode_info->RedFieldPosition) | (G<<mode_info->GreenFieldPosition) | (B<<mode_info->BlueFieldPosition);
                 vg_draw_rectangle(x,y,width,height,color);
                 x+=width;
                 col++;
@@ -295,6 +307,6 @@ int drawPattern(uint16_t mode,uint8_t rect_number,uint32_t first,uint8_t step,vb
             row++;
         }
 
-    }*/
+    }
   return 0;
 }

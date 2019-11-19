@@ -107,6 +107,7 @@ int(video_test_pattern)(uint16_t mode, uint8_t no_rectangles, uint32_t first, ui
   if (vg_init(mode) == NULL) return 1;
   vbe_mode_info_t mode_info;
   vbeModeInfo(mode,&mode_info);
+  
   if(drawPattern(mode,no_rectangles,first,step,&mode_info)) return 1;
    
   if(keyboard_subscribe(&irq_set) != 0) return 1;                 //interrupt upon keyboard use
