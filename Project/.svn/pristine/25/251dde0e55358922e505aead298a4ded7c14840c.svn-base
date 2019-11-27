@@ -1,0 +1,10 @@
+PROG=lab5
+
+SRCS = Proj.c graphic.c keyboard.c timer.c sprite.c utils.c
+
+CPPFLAGS += -pedantic 
+
+DPADD += ${LIBLCF} ${LIBLM}
+LDADD += -llcf -llm
+
+.include <minix.lcom.mk>
