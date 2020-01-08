@@ -1,0 +1,12 @@
+<map id="i8042.h" name="i8042.h">
+<area shape="rect" id="node1" title=" " alt="" coords="267,5,331,32"/>
+<area shape="rect" id="node2" href="$mouse_8h.html" title=" " alt="" coords="263,80,335,107"/>
+<area shape="rect" id="node3" href="$game_8c.html" title="This is file contains the implementation of functions to the game interface." alt="" coords="5,155,71,181"/>
+<area shape="rect" id="node4" href="$menu_8c.html" title="This is file contains the implementation of functions to the menu." alt="" coords="379,155,444,181"/>
+<area shape="rect" id="node6" href="$proj_8c.html" title="This is file contains the implementation of the main file in the project." alt="" coords="203,155,257,181"/>
+<area shape="rect" id="node7" href="$text_input_8h.html" title=" " alt="" coords="99,80,182,107"/>
+<area shape="rect" id="node9" href="$graphic_8c.html" title=" " alt="" coords="410,80,485,107"/>
+<area shape="rect" id="node10" href="$keyboard_8c.html" title=" " alt="" coords="509,80,596,107"/>
+<area shape="rect" id="node5" href="$mouse_8c.html" title=" " alt="" coords="282,155,354,181"/>
+<area shape="rect" id="node8" href="$text_input_8c.html" title=" " alt="" coords="95,155,178,181"/>
+</map>

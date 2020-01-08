@@ -1,0 +1,5 @@
+<map id="init_player1_hp" name="init_player1_hp">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,115,57"/>
+<area shape="rect" id="node2" href="$group__sprite.html#gab67f095900ba6092fed7f581886f28c6" title=" " alt="" coords="168,5,265,32"/>
+<area shape="rect" id="node3" href="$graphic_8c.html#a0e483f09b12441ec39c3ab55fc84103f" title=" " alt="" coords="163,56,271,83"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="graphic.h" name="graphic.h">
+<area shape="rect" id="node1" title=" " alt="" coords="215,5,290,32"/>
+<area shape="rect" id="node2" href="$game_8c.html" title="This is file contains the implementation of functions to the game interface." alt="" coords="5,155,71,181"/>
+<area shape="rect" id="node3" href="$text_input_8h.html" title=" " alt="" coords="95,80,178,107"/>
+<area shape="rect" id="node4" href="$proj_8c.html" title="This is file contains the implementation of the main file in the project." alt="" coords="203,155,257,181"/>
+<area shape="rect" id="node6" href="$graphic_8c.html" title=" " alt="" coords="253,80,327,107"/>
+<area shape="rect" id="node7" href="$menu_8c.html" title="This is file contains the implementation of functions to the menu." alt="" coords="352,80,417,107"/>
+<area shape="rect" id="node8" href="$sprite_8c.html" title=" " alt="" coords="441,80,507,107"/>
+<area shape="rect" id="node5" href="$text_input_8c.html" title=" " alt="" coords="95,155,178,181"/>
+</map>

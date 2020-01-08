@@ -1,0 +1,5 @@
+<map id="draw_p2_hp" name="draw_p2_hp">
+<area shape="rect" id="node1" title="Draw the hp for player 2." alt="" coords="5,5,96,32"/>
+<area shape="rect" id="node2" href="$group__sprite.html#ga3fc1965bb7f45fd72fff8a402c507186" title="Simply draw a sprite in the buffer." alt="" coords="144,5,227,32"/>
+<area shape="rect" id="node3" href="$graphic_8c.html#a6091a4bd04596e6e8e39b7dee1e1b118" title=" " alt="" coords="275,5,353,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="mouse.h" name="mouse.h">
+<area shape="rect" id="node1" title=" " alt="" coords="138,5,210,32"/>
+<area shape="rect" id="node2" href="$game_8c.html" title="This is file contains the implementation of functions to the game interface." alt="" coords="5,80,71,107"/>
+<area shape="rect" id="node3" href="$menu_8c.html" title="This is file contains the implementation of functions to the menu." alt="" coords="95,80,160,107"/>
+<area shape="rect" id="node4" href="$mouse_8c.html" title=" " alt="" coords="185,80,257,107"/>
+<area shape="rect" id="node5" href="$proj_8c.html" title="This is file contains the implementation of the main file in the project." alt="" coords="281,80,336,107"/>
+</map>

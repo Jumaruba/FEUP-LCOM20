@@ -1,0 +1,5 @@
+<map id="init_heart" name="init_heart">
+<area shape="rect" id="node1" title="initializes the hearts sprites to the hp" alt="" coords="5,31,80,57"/>
+<area shape="rect" id="node2" href="$group__sprite.html#gab67f095900ba6092fed7f581886f28c6" title=" " alt="" coords="133,5,231,32"/>
+<area shape="rect" id="node3" href="$graphic_8c.html#a0e483f09b12441ec39c3ab55fc84103f" title=" " alt="" coords="128,56,236,83"/>
+</map>

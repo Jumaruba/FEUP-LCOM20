@@ -1,0 +1,13 @@
+<map id="askname2" name="askname2">
+<area shape="rect" id="node1" title="This functions writes and asks the name of the player 1." alt="" coords="5,183,88,209"/>
+<area shape="rect" id="node2" href="$graphic_8c.html#afa847549e9dc6e4f49f651623bc456dc" title=" " alt="" coords="153,5,241,32"/>
+<area shape="rect" id="node3" href="$graphic_8c.html#aa21ebb227a5fdea03a54ffa3cebec2ac" title=" " alt="" coords="332,183,407,209"/>
+<area shape="rect" id="node5" href="$graphic_8c.html#a1c57842a88d81b7a9a4b78c7baaab4f8" title=" " alt="" coords="138,107,255,133"/>
+<area shape="rect" id="node6" href="$graphic_8c.html#a9e7c01518e0e390c2e6ed1f9f37d2dce" title=" " alt="" coords="141,157,252,184"/>
+<area shape="rect" id="node7" href="$graphic_8c.html#acabf92dbc884231a5a55803384d46a78" title=" " alt="" coords="136,208,257,235"/>
+<area shape="rect" id="node8" href="$graphic_8c.html#a2906e5845f91418735777d50a323ba56" title=" " alt="" coords="143,259,250,285"/>
+<area shape="rect" id="node9" href="$graphic_8c.html#ac74881828da63534c7f92d67142a015e" title=" " alt="" coords="143,309,251,336"/>
+<area shape="rect" id="node10" href="$text_input_8c.html#a9839a15deb993dc87226a85a3df381bf" title="This function write a string." alt="" coords="153,360,241,387"/>
+<area shape="rect" id="node4" href="$graphic_8c.html#a6091a4bd04596e6e8e39b7dee1e1b118" title=" " alt="" coords="481,183,560,209"/>
+<area shape="rect" id="node11" href="$graphic_8c.html#adde5d802fea681468c8a9917bcba6787" title=" " alt="" coords="305,360,433,387"/>
+</map>

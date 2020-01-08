@@ -1,0 +1,6 @@
+<map id="isDay" name="isDay">
+<area shape="rect" id="node1" title="Checks if it&#39;s day or not." alt="" coords="5,31,60,57"/>
+<area shape="rect" id="node2" href="$rtc_8c.html#a254c3faf9449f9c50bd7d941470f0280" title="This functions reads a register from the RTC." alt="" coords="108,31,177,57"/>
+<area shape="rect" id="node3" href="$rtc_8c.html#ada6a89e4415129b99bd23ae3b434b12d" title="This function checks if the RTC is in the BCD format." alt="" coords="235,5,321,32"/>
+<area shape="rect" id="node4" href="$rtc_8c.html#a2cf5113f883fe60d8772728f42e2d1c2" title="Case the RTC is in the BCD format, we convert it to binary." alt="" coords="225,56,331,83"/>
+</map>

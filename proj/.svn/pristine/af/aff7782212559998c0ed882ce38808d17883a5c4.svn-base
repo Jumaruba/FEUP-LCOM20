@@ -1,0 +1,12 @@
+<map id="drawSprite" name="drawSprite">
+<area shape="rect" id="node1" title="Simply draw a sprite in the buffer." alt="" coords="520,132,603,159"/>
+<area shape="rect" id="node2" href="$game_8h.html#ac5aaa38ff3762d478e6d3c25460e2c1f" title="Checks the hp of each cannon. If a hp is zero, than the game is over." alt="" coords="341,5,472,32"/>
+<area shape="rect" id="node5" href="$menu_8h.html#a1004fdfb38d3915514e5c229dc7eb827" title="Checks if the mouse is on the INSTRUCTION and if it has been pressed left buttom." alt="" coords="163,56,293,83"/>
+<area shape="rect" id="node6" href="$game_8h.html#ad3f6f4fac62a7e4ea390e50605d411a1" title="Draws the ground." alt="" coords="359,107,454,133"/>
+<area shape="rect" id="node8" href="$game_8c.html#af0afec4c7b66df5cab62ba43d66631db" title=" " alt="" coords="361,157,452,184"/>
+<area shape="rect" id="node9" href="$game_8h.html#a084a6da699e6d25cf5e248eeaf09dbee" title="Draw the hp for player 2." alt="" coords="361,208,452,235"/>
+<area shape="rect" id="node10" href="$game_8h.html#a8f2b54183c0be55ace556b15b57b4a3f" title="Draw the cannon shot and handles the turn." alt="" coords="361,259,453,285"/>
+<area shape="rect" id="node3" href="$game_8h.html#a9e8bcd794765b7fe53f2684856fb4b9e" title="Draw the game and parses the information to the mem_video." alt="" coords="187,5,269,32"/>
+<area shape="rect" id="node4" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,31,115,57"/>
+<area shape="rect" id="node7" href="$game_8h.html#a11a4a756915b0cdbcad393a026c4e3d6" title="Draw the mouse, cannons and the hearts in the buffer." alt="" coords="175,157,281,184"/>
+</map>

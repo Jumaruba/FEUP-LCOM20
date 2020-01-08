@@ -1,0 +1,5 @@
+<map id="draw_ground" name="draw_ground">
+<area shape="rect" id="node1" title="Draws the ground." alt="" coords="5,5,100,32"/>
+<area shape="rect" id="node2" href="$group__sprite.html#ga3fc1965bb7f45fd72fff8a402c507186" title="Simply draw a sprite in the buffer." alt="" coords="148,5,231,32"/>
+<area shape="rect" id="node3" href="$graphic_8c.html#a6091a4bd04596e6e8e39b7dee1e1b118" title=" " alt="" coords="279,5,357,32"/>
+</map>

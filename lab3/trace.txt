@@ -1,0 +1,4727 @@
+@lcflib.a:2019, lcf_start
+  kbd_test_poll()
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1d = 0b00011101])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x60, addr: 0x822dfbc)
+  < sys_inb(0x60, addr: 0x822dfbc [0x0e = 0b00001110])
+  @lab3.c:92, kbd_test_poll
+    kbd_print_scancode(type, size, code_bytes)
+    "Makecode: 0x0e"
+  < kbd_print_scancode(true, 1, addr: 0x8249d61 [0x0e]) -> (ret: 0)
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1d = 0b00011101])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x60, addr: 0x822dfbc)
+  < sys_inb(0x60, addr: 0x822dfbc [0x8e = 0b10001110])
+  @lab3.c:92, kbd_test_poll
+    kbd_print_scancode(type, size, code_bytes)
+    "Breakcode: 0x8e"
+  < kbd_print_scancode(false, 1, addr: 0x8249d61 [0x8e]) -> (ret: 0)
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1d = 0b00011101])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x60, addr: 0x822dfbc)
+  < sys_inb(0x60, addr: 0x822dfbc [0x01 = 0b00000001])
+  @lab3.c:92, kbd_test_poll
+    kbd_print_scancode(type, size, code_bytes)
+    "Makecode: 0x01"
+  < kbd_print_scancode(true, 1, addr: 0x8249d61 [0x01]) -> (ret: 0)
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1c = 0b00011100])
+  @keyboard.c:47, keyboard_read
+    micros_to_ticks(DELAY_US)
+  @keyboard.c:47, keyboard_read
+    tickdelay(micros_to_ticks(DELAY_US))
+  > tickdelay(1 [16.7 ms])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1d = 0b00011101])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x60, addr: 0x822dfbc)
+  < sys_inb(0x60, addr: 0x822dfbc [0x81 = 0b10000001])
+  @lab3.c:92, kbd_test_poll
+    kbd_print_scancode(type, size, code_bytes)
+    "Breakcode: 0x81"
+  < kbd_print_scancode(false, 1, addr: 0x8249d61 [0x81]) -> (ret: 0)
+  @lab3.c:94, kbd_test_poll
+    kbd_print_no_sysinb(sys_counter)
+    "sys_inb_calls: 524"
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff73c)
+  < sys_inb(0x64, addr: 0xeffff73c [0x1c = 0b00011100])
+  @keyboard.c:67, keyboard_write
+    sys_outb(addr, byte)
+  > sys_outb(0x64, 0x20 = 0b00100000)
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff740)
+  < sys_inb(0x64, addr: 0xeffff740 [0x1d = 0b00011101])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x60, addr: 0x822dfbc)
+  < sys_inb(0x60, addr: 0x822dfbc [0x46 = 0b01000110])
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff73c)
+  < sys_inb(0x64, addr: 0xeffff73c [0x1c = 0b00011100])
+  @keyboard.c:67, keyboard_write
+    sys_outb(addr, byte)
+  > sys_outb(0x64, 0x60 = 0b01100000)
+  @keyboard.c:16, sys_inb_cnt
+    sys_inb(port, byte)
+  > sys_inb(0x64, addr: 0xeffff73c)
+  < sys_inb(0x64, addr: 0xeffff73c [0x1c = 0b00011100])
+  @keyboard.c:67, keyboard_write
+    sys_outb(addr, byte)
+  > sys_outb(0x60, 0x47 = 0b01000111)
+< kbd_test_poll() -> (ret: 0)

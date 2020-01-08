@@ -1,0 +1,9 @@
+<map id="check_for_engame" name="check_for_engame">
+<area shape="rect" id="node1" title="Checks the hp of each cannon. If a hp is zero, than the game is over." alt="" coords="5,107,136,133"/>
+<area shape="rect" id="node2" href="$group__sprite.html#ga3fc1965bb7f45fd72fff8a402c507186" title="Simply draw a sprite in the buffer." alt="" coords="190,5,273,32"/>
+<area shape="rect" id="node4" href="$graphic_8c.html#a81bcdf0f86469cb3e7f35e67f3cccc5c" title=" " alt="" coords="192,56,271,83"/>
+<area shape="rect" id="node5" href="$graphic_8c.html#a8becb86f48f701c43e1c411f57f60c4d" title=" " alt="" coords="195,107,267,133"/>
+<area shape="rect" id="node6" href="$graphic_8c.html#ad5999dee7ae30ea14b13e2e2e5a92c88" title=" " alt="" coords="196,157,267,184"/>
+<area shape="rect" id="node7" href="$game_8c.html#a8320259bc6810b9d6d2c656d79c273ba" title="Restart game states for new match." alt="" coords="184,208,279,235"/>
+<area shape="rect" id="node3" href="$graphic_8c.html#a6091a4bd04596e6e8e39b7dee1e1b118" title=" " alt="" coords="327,5,405,32"/>
+</map>

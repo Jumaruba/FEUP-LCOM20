@@ -1,0 +1,8 @@
+<map id="draw_interface" name="draw_interface">
+<area shape="rect" id="node1" title="Draw the mouse, cannons and the hearts in the buffer." alt="" coords="5,56,111,83"/>
+<area shape="rect" id="node2" href="$game_8c.html#ad3f6f4fac62a7e4ea390e50605d411a1" title="Draws the ground." alt="" coords="159,5,253,32"/>
+<area shape="rect" id="node5" href="$game_8c.html#af0afec4c7b66df5cab62ba43d66631db" title=" " alt="" coords="161,56,251,83"/>
+<area shape="rect" id="node6" href="$game_8c.html#a084a6da699e6d25cf5e248eeaf09dbee" title="Draw the hp for player 2." alt="" coords="161,107,251,133"/>
+<area shape="rect" id="node3" href="$group__sprite.html#ga3fc1965bb7f45fd72fff8a402c507186" title="Simply draw a sprite in the buffer." alt="" coords="301,56,384,83"/>
+<area shape="rect" id="node4" href="$graphic_8c.html#a6091a4bd04596e6e8e39b7dee1e1b118" title=" " alt="" coords="432,56,511,83"/>
+</map>

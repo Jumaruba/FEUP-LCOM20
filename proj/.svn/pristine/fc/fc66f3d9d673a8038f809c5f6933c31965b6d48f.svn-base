@@ -1,0 +1,6 @@
+<map id="check_instructions" name="check_instructions">
+<area shape="rect" id="node1" title="Checks if the mouse is on the INSTRUCTION and if it has been pressed left buttom." alt="" coords="5,31,136,57"/>
+<area shape="rect" id="node2" href="$graphic_8c.html#afa847549e9dc6e4f49f651623bc456dc" title=" " alt="" coords="184,5,272,32"/>
+<area shape="rect" id="node3" href="$group__sprite.html#ga3fc1965bb7f45fd72fff8a402c507186" title="Simply draw a sprite in the buffer." alt="" coords="187,56,269,83"/>
+<area shape="rect" id="node4" href="$graphic_8c.html#a6091a4bd04596e6e8e39b7dee1e1b118" title=" " alt="" coords="320,56,399,83"/>
+</map>

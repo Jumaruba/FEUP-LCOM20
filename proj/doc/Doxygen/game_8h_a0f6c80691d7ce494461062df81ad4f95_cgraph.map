@@ -1,0 +1,5 @@
+<map id="init_moon" name="init_moon">
+<area shape="rect" id="node1" title="initializes the moon sprite" alt="" coords="5,31,84,57"/>
+<area shape="rect" id="node2" href="$group__sprite.html#gab67f095900ba6092fed7f581886f28c6" title=" " alt="" coords="159,5,256,32"/>
+<area shape="rect" id="node3" href="$graphic_8c.html#a8ddd2f869f49fc0ad49b74a0782f4f0e" title=" " alt="" coords="132,56,283,83"/>
+</map>

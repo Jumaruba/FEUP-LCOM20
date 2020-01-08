@@ -1,0 +1,8 @@
+<map id="handle_shot" name="handle_shot">
+<area shape="rect" id="node1" title="Draw the cannon shot and handles the turn." alt="" coords="5,81,97,108"/>
+<area shape="rect" id="node2" href="$game_8c.html#a29df1ac859236439f63a41b1b9c30525" title="Calculates the trajectory of the shot." alt="" coords="145,56,239,83"/>
+<area shape="rect" id="node5" href="$group__sprite.html#ga3fc1965bb7f45fd72fff8a402c507186" title="Simply draw a sprite in the buffer." alt="" coords="151,107,233,133"/>
+<area shape="rect" id="node3" href="$game_8c.html#a4dbc65564546ca6512e995e264419701" title="Check if there is a collision in both cannons. If there is, update the hp." alt="" coords="287,5,393,32"/>
+<area shape="rect" id="node4" href="$group__sprite.html#gaf16c6befaac9ffb673b9e3c798d542ed" title=" " alt="" coords="288,56,392,83"/>
+<area shape="rect" id="node6" href="$graphic_8c.html#a6091a4bd04596e6e8e39b7dee1e1b118" title=" " alt="" coords="301,107,379,133"/>
+</map>

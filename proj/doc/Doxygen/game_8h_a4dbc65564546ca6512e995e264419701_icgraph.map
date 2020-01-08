@@ -1,0 +1,5 @@
+<map id="checkCollision" name="checkCollision">
+<area shape="rect" id="node1" title="Check if there is a collision in both cannons. If there is, update the hp." alt="" coords="287,5,393,32"/>
+<area shape="rect" id="node2" href="$game_8h.html#a29df1ac859236439f63a41b1b9c30525" title="Calculates the trajectory of the shot." alt="" coords="145,5,239,32"/>
+<area shape="rect" id="node3" href="$game_8h.html#a8f2b54183c0be55ace556b15b57b4a3f" title="Draw the cannon shot and handles the turn." alt="" coords="5,5,97,32"/>
+</map>

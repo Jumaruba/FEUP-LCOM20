@@ -1,0 +1,5 @@
+<map id="init_sun" name="init_sun">
+<area shape="rect" id="node1" title="initializes the sun sprite" alt="" coords="5,31,72,57"/>
+<area shape="rect" id="node2" href="$group__sprite.html#gab67f095900ba6092fed7f581886f28c6" title=" " alt="" coords="141,5,238,32"/>
+<area shape="rect" id="node3" href="$graphic_8c.html#a93166020b9225947101ca56755e2f592" title=" " alt="" coords="120,56,259,83"/>
+</map>

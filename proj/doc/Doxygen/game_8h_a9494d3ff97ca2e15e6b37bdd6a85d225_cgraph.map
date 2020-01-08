@@ -1,0 +1,5 @@
+<map id="init_cannon" name="init_cannon">
+<area shape="rect" id="node1" title="initializes cannon left sprite" alt="" coords="5,31,93,57"/>
+<area shape="rect" id="node2" href="$group__sprite.html#gab67f095900ba6092fed7f581886f28c6" title=" " alt="" coords="173,5,270,32"/>
+<area shape="rect" id="node3" href="$graphic_8c.html#a3f292dda6212868042e2137272400d45" title=" " alt="" coords="141,56,301,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="check_bcd" name="check_bcd">
+<area shape="rect" id="node1" title="This function checks if the RTC is in the BCD format." alt="" coords="383,5,468,32"/>
+<area shape="rect" id="node2" href="$rtc_8h.html#a254c3faf9449f9c50bd7d941470f0280" title="This functions reads a register from the RTC." alt="" coords="265,5,335,32"/>
+<area shape="rect" id="node3" href="$proj_8h.html#a6e84fbc1d2baca5ce4321a3f4edeee51" title="Checks if it&#39;s day or not." alt="" coords="163,5,217,32"/>
+<area shape="rect" id="node4" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,115,32"/>
+</map>

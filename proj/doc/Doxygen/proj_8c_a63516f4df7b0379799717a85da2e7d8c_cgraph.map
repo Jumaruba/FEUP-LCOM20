@@ -1,0 +1,9 @@
+<map id="exit_" name="exit_">
+<area shape="rect" id="node1" title="Clear memory when exit." alt="" coords="5,107,56,133"/>
+<area shape="rect" id="node2" href="$graphic_8c.html#a996ad0d46e46edac713af64ea63be162" title=" " alt="" coords="143,5,224,32"/>
+<area shape="rect" id="node3" href="$mouse_8c.html#a981c5a2f5c527b8401b455d16b167c1b" title=" " alt="" coords="127,56,239,83"/>
+<area shape="rect" id="node5" href="$keyboard_8c.html#ac5a55c875cfe613e7fc3dec67ab0dde8" title=" " alt="" coords="107,107,259,133"/>
+<area shape="rect" id="node6" href="$mouse_8c.html#a685ad2706aca36d9869a30a19b9f446a" title=" " alt="" coords="104,157,263,184"/>
+<area shape="rect" id="node7" href="$group__timer.html#gafabd21de449be154dd65d5fdb2d8045d" title="Unsubscribes Timer 0 interrupts." alt="" coords="109,208,258,235"/>
+<area shape="rect" id="node4" href="$mouse_8c.html#a0e90f24ad514e9fcbd487a0b10e03c2c" title=" " alt="" coords="311,56,388,83"/>
+</map>

@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['s_309',['s',['../xpm_8h.html#a094c7a20402cd63c00c4465622778f8f',1,'s():&#160;xpm.h'],['../text_input_8h.html#af933676109efed7ab34cea71d748a517',1,'S():&#160;textInput.h']]],
+  ['s_5fb_310',['S_b',['../text_input_8h.html#a1195d90c84f0fbe60017d3c415516b1d',1,'textInput.h']]],
+  ['secondl_311',['SECONDL',['../mouse_8h.html#aa19be6305a5a4485e1e70de70ed7d677afa32143a404f1660f456a334b13df9b4',1,'mouse.h']]],
+  ['seconds_312',['seconds',['../proj_8c.html#a46729a903be1a03cdb248fb48d84d4f5',1,'proj.c']]],
+  ['segundos_313',['segundos',['../game_8c.html#aebaccdba96383e50b4712b5e848b654c',1,'segundos():&#160;proj.c'],['../proj_8c.html#aebaccdba96383e50b4712b5e848b654c',1,'segundos():&#160;proj.c']]],
+  ['set_5fstream_5fmode_314',['SET_STREAM_MODE',['../i8042_8h.html#aabf49b4a4d8ad72d202c8a7197058e35',1,'i8042.h']]],
+  ['shot_315',['SHOT',['../game_8h.html#acb4c529f7ae988b2912f05ac254b2cba',1,'game.h']]],
+  ['size_316',['size',['../keyboard_8c.html#ae5dc6ffcd9b7605c7787791e40cc6bb0',1,'keyboard.c']]],
+  ['size1_317',['size1',['../proj_8c.html#af68f0dccfb25d93948b065a91f6b8860',1,'size1():&#160;proj.c'],['../text_input_8h.html#af68f0dccfb25d93948b065a91f6b8860',1,'size1():&#160;proj.c']]],
+  ['size2_318',['size2',['../proj_8c.html#a5174cedb24f38902087f99eb8a24bd14',1,'size2():&#160;proj.c'],['../text_input_8h.html#a5174cedb24f38902087f99eb8a24bd14',1,'size2():&#160;proj.c']]],
+  ['space_319',['space',['../xpm_8h.html#a0455c3b0e6ad881880cc5cb0fecd3e6f',1,'xpm.h']]],
+  ['speaker_5fctrl_320',['SPEAKER_CTRL',['../group__i8254.html#ga51b3a5e3d4811ca063fe25e35560ab40',1,'i8254.h']]],
+  ['speed_321',['SPEED',['../game_8h.html#aac3553b3932cbfeeac4526ce7ca0336b',1,'game.h']]],
+  ['sprite_322',['Sprite',['../struct_sprite.html',1,'Sprite'],['../group__sprite.html',1,'(Global Namespace)']]],
+  ['sprite_2ec_323',['sprite.c',['../sprite_8c.html',1,'']]],
+  ['sprite_2eh_324',['sprite.h',['../sprite_8h.html',1,'']]],
+  ['spriteinit_325',['SpriteInit',['../group__sprite.html#gac90aa73839d7660734764ea76f237650',1,'SpriteInit(xpm_map_t xpm, uint16_t *xi, uint16_t *xf, uint16_t *yi, uint16_t *yf, int16_t speed, uint16_t *required):&#160;sprite.c'],['../group__sprite.html#gac90aa73839d7660734764ea76f237650',1,'SpriteInit(xpm_map_t xpm, uint16_t *xi, uint16_t *xf, uint16_t *yi, uint16_t *yf, int16_t speed, uint16_t *required):&#160;sprite.c']]],
+  ['start_326',['START',['../xpm_8h.html#ae597a393dfa1ab2a16a4d1e7da2ed273',1,'xpm.h']]],
+  ['starts_327',['STARTs',['../xpm_8h.html#aa7d9b672d6a3fe8a2204ca5293a1a821',1,'xpm.h']]],
+  ['stat_5freg_328',['STAT_REG',['../i8042_8h.html#a89c4d098b53809674457b1660b1af780',1,'i8042.h']]],
+  ['state_5fmachine_329',['state_machine',['../structstate__machine.html',1,'']]],
+  ['states_330',['states',['../mouse_8h.html#aa19be6305a5a4485e1e70de70ed7d677',1,'mouse.h']]],
+  ['sun_331',['sun',['../xpm_8h.html#adf1492571ed53c807993e2434140e625',1,'xpm.h']]],
+  ['sys_5fcounter_332',['sys_counter',['../keyboard_8c.html#a3ffba3a2e657b593d549f704bf6ce08a',1,'keyboard.c']]],
+  ['sys_5finb_5fcnt_333',['sys_inb_cnt',['../keyboard_8h.html#aefb2d8ab6a450744c686e348063ebc32',1,'sys_inb_cnt():&#160;keyboard.h'],['../keyboard_8c.html#acce7b36043562cfa187793cddb26537e',1,'sys_inb_cnt(port_t port, uint32_t *byte):&#160;keyboard.c']]]
+];

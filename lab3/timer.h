@@ -8,7 +8,6 @@
 #include <minix/drivers.h>
 #include <minix/com.h>
 
- 
 /** @defgroup timer timer
  * @{
  *

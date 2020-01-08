@@ -1,0 +1,5 @@
+<map id="cal_trajetory" name="cal_trajetory">
+<area shape="rect" id="node1" title="Calculates the trajectory of the shot." alt="" coords="5,31,99,57"/>
+<area shape="rect" id="node2" href="$game_8c.html#a4dbc65564546ca6512e995e264419701" title="Check if there is a collision in both cannons. If there is, update the hp." alt="" coords="147,5,253,32"/>
+<area shape="rect" id="node3" href="$group__sprite.html#gaf16c6befaac9ffb673b9e3c798d542ed" title=" " alt="" coords="148,56,252,83"/>
+</map>

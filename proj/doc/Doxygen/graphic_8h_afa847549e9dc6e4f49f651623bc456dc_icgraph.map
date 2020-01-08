@@ -1,0 +1,9 @@
+<map id="clear_buffer" name="clear_buffer">
+<area shape="rect" id="node1" title=" " alt="" coords="341,132,429,159"/>
+<area shape="rect" id="node2" href="$text_input_8h.html#a76003abba9203cd9e7916a529065defe" title="This functions writes and asks the name of the player 2." alt="" coords="187,5,269,32"/>
+<area shape="rect" id="node3" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,132,115,159"/>
+<area shape="rect" id="node4" href="$text_input_8h.html#a7a2cf23b69f43332002bd50c4b7fa8e5" title="This functions writes and asks the name of the player 1." alt="" coords="187,107,269,133"/>
+<area shape="rect" id="node5" href="$menu_8h.html#a1004fdfb38d3915514e5c229dc7eb827" title="Checks if the mouse is on the INSTRUCTION and if it has been pressed left buttom." alt="" coords="163,157,293,184"/>
+<area shape="rect" id="node6" href="$game_8h.html#a9e8bcd794765b7fe53f2684856fb4b9e" title="Draw the game and parses the information to the mem_video." alt="" coords="187,208,269,235"/>
+<area shape="rect" id="node7" href="$menu_8h.html#a25daedb7d987b549f60da4e60ac55215" title="Draw the inital menu." alt="" coords="187,259,269,285"/>
+</map>

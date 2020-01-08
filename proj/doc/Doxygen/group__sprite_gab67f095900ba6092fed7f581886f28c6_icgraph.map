@@ -1,0 +1,12 @@
+<map id="create_sprite" name="create_sprite">
+<area shape="rect" id="node1" title=" " alt="" coords="163,208,260,235"/>
+<area shape="rect" id="node2" href="$game_8h.html#a6f5ef04d0794b760efc3c311f35fe17f" title="initializes sprite saying that the player 1 has won" alt="" coords="21,5,99,32"/>
+<area shape="rect" id="node3" href="$game_8h.html#a0c1ca0f5cb560ede435eda027fbc6967" title="initializes sprite saying that the player 2 has won" alt="" coords="21,56,99,83"/>
+<area shape="rect" id="node4" href="$game_8h.html#a9494d3ff97ca2e15e6b37bdd6a85d225" title="initializes cannon left sprite" alt="" coords="16,107,104,133"/>
+<area shape="rect" id="node5" href="$game_8h.html#a1cc1486adc42be25661d6f8f04c16ed5" title="initializes the hearts sprites to the hp" alt="" coords="23,157,97,184"/>
+<area shape="rect" id="node6" href="$game_8h.html#a0f6c80691d7ce494461062df81ad4f95" title="initializes the moon sprite" alt="" coords="21,208,99,235"/>
+<area shape="rect" id="node7" href="$game_8c.html#ae0fa953772e84be41e6e2326a977f024" title=" " alt="" coords="5,259,115,285"/>
+<area shape="rect" id="node8" href="$game_8h.html#ab18594bae5cd1c0ba724039312ddb3be" title="initializes sprite saying to press space" alt="" coords="19,309,101,336"/>
+<area shape="rect" id="node9" href="$game_8h.html#a16ac115de98bde0a3e58fbbf1d53ce7b" title="initializes the sun sprite" alt="" coords="27,360,93,387"/>
+<area shape="rect" id="node10" href="$group__sprite.html#gac90aa73839d7660734764ea76f237650" title=" " alt="" coords="23,411,97,437"/>
+</map>

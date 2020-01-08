@@ -1,0 +1,5 @@
+<map id="init_2wins" name="init_2wins">
+<area shape="rect" id="node1" title="initializes sprite saying that the player 2 has won" alt="" coords="5,31,84,57"/>
+<area shape="rect" id="node2" href="$group__sprite.html#gab67f095900ba6092fed7f581886f28c6" title=" " alt="" coords="139,5,237,32"/>
+<area shape="rect" id="node3" href="$graphic_8c.html#adbbc627dd6e9a021d1965c9153eda29c" title=" " alt="" coords="132,56,244,83"/>
+</map>

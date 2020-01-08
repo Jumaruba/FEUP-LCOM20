@@ -1,0 +1,4 @@
+<map id="drawInvertedSprite" name="drawInvertedSprite">
+<area shape="rect" id="node1" title="Draw in the buffer a mirror sprite, related to the y&#45;axis." alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node2" href="$graphic_8c.html#a6091a4bd04596e6e8e39b7dee1e1b118" title=" " alt="" coords="180,5,259,32"/>
+</map>

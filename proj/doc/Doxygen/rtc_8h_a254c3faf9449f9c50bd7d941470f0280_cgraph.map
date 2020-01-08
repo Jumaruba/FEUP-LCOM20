@@ -1,0 +1,5 @@
+<map id="read_rtc" name="read_rtc">
+<area shape="rect" id="node1" title="This functions reads a register from the RTC." alt="" coords="5,31,75,57"/>
+<area shape="rect" id="node2" href="$rtc_8c.html#ada6a89e4415129b99bd23ae3b434b12d" title="This function checks if the RTC is in the BCD format." alt="" coords="133,5,218,32"/>
+<area shape="rect" id="node3" href="$rtc_8c.html#a2cf5113f883fe60d8772728f42e2d1c2" title="Case the RTC is in the BCD format, we convert it to binary." alt="" coords="123,56,228,83"/>
+</map>

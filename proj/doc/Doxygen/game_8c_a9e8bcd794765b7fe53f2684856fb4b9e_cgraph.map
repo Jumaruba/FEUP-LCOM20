@@ -1,0 +1,13 @@
+<map id="gameDraw" name="gameDraw">
+<area shape="rect" id="node1" title="Draw the game and parses the information to the mem_video." alt="" coords="5,183,88,209"/>
+<area shape="rect" id="node2" href="$game_8c.html#ac5aaa38ff3762d478e6d3c25460e2c1f" title="Checks the hp of each cannon. If a hp is zero, than the game is over." alt="" coords="136,107,267,133"/>
+<area shape="rect" id="node9" href="$graphic_8c.html#afa847549e9dc6e4f49f651623bc456dc" title=" " alt="" coords="157,157,245,184"/>
+<area shape="rect" id="node10" href="$graphic_8c.html#ac74881828da63534c7f92d67142a015e" title=" " alt="" coords="147,208,255,235"/>
+<area shape="rect" id="node11" href="$mouse_8c.html#a8e1233e64b066c14cad2f262541116a1" title=" " alt="" coords="153,259,250,285"/>
+<area shape="rect" id="node3" href="$group__sprite.html#ga3fc1965bb7f45fd72fff8a402c507186" title="Simply draw a sprite in the buffer." alt="" coords="321,5,403,32"/>
+<area shape="rect" id="node5" href="$graphic_8c.html#a81bcdf0f86469cb3e7f35e67f3cccc5c" title=" " alt="" coords="323,56,401,83"/>
+<area shape="rect" id="node6" href="$graphic_8c.html#a8becb86f48f701c43e1c411f57f60c4d" title=" " alt="" coords="326,107,398,133"/>
+<area shape="rect" id="node7" href="$graphic_8c.html#ad5999dee7ae30ea14b13e2e2e5a92c88" title=" " alt="" coords="327,157,397,184"/>
+<area shape="rect" id="node8" href="$game_8c.html#a8320259bc6810b9d6d2c656d79c273ba" title="Restart game states for new match." alt="" coords="315,208,409,235"/>
+<area shape="rect" id="node4" href="$graphic_8c.html#a6091a4bd04596e6e8e39b7dee1e1b118" title=" " alt="" coords="457,5,536,32"/>
+</map>

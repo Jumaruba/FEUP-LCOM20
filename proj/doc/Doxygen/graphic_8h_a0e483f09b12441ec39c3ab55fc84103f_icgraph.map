@@ -1,0 +1,5 @@
+<map id="get_heart_xpm" name="get_heart_xpm">
+<area shape="rect" id="node1" title=" " alt="" coords="163,31,271,57"/>
+<area shape="rect" id="node2" href="$game_8h.html#a1cc1486adc42be25661d6f8f04c16ed5" title="initializes the hearts sprites to the hp" alt="" coords="23,5,97,32"/>
+<area shape="rect" id="node3" href="$game_8c.html#ae0fa953772e84be41e6e2326a977f024" title=" " alt="" coords="5,56,115,83"/>
+</map>

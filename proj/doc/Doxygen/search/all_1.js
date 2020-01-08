@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['b_15',['b',['../xpm_8h.html#a007102d73a9d1b874a476c15b7a7691f',1,'b():&#160;xpm.h'],['../text_input_8h.html#a111da81ae5883147168bbb8366377b10',1,'B():&#160;textInput.h']]],
+  ['b_5fb_16',['B_b',['../text_input_8h.html#afe7c94f52948a999a4b53e69533ff2a1',1,'textInput.h']]],
+  ['ball_17',['ball',['../xpm_8h.html#a5e13ad67eaec4b1e70e13d5912ca6cd9',1,'xpm.h']]],
+  ['ball_5fspeed_18',['BALL_SPEED',['../game_8h.html#a40adb448bd1bebb3e41482a981f4d2f4',1,'game.h']]],
+  ['bcd_19',['bcd',['../group__timer.html#gad1c0daae1fe44fc16a05f435123a99f2',1,'timer_status_field_val']]],
+  ['bck_5fspace_20',['BCK_SPACE',['../text_input_8h.html#aa82e1a7d1ca35c6c709c7989705fda13',1,'textInput.h']]],
+  ['bit_5fdm_21',['BIT_DM',['../rtc_8h.html#afdf2062d1de43248814c08887dd68250',1,'rtc.h']]],
+  ['bit_5fuip_22',['BIT_UIP',['../rtc_8h.html#abb9ddc4ab92c978877b445326045c2f2',1,'rtc.h']]],
+  ['bk_5fl_5farrow_5f1_23',['BK_L_ARROW_1',['../game_8h.html#a9f2742f8cacf58e07d5d8d64be8bf14b',1,'game.h']]],
+  ['bk_5fl_5fletter_24',['BK_L_LETTER',['../game_8h.html#afe2bfe7e25dce632099560079afe6637',1,'game.h']]],
+  ['bk_5fr_5farrow_5f1_25',['BK_R_ARROW_1',['../game_8h.html#ac7a207dbbd7c4902fa65a97abb636217',1,'game.h']]],
+  ['bk_5fr_5fletter_26',['BK_R_LETTER',['../game_8h.html#a1460bf836ce6295ff18e7a6d30c23032',1,'game.h']]],
+  ['blue_5fbackground_27',['blue_background',['../graphic_8c.html#a23b9fa70028e3206b5628b9cdc2702f9',1,'blue_background():&#160;graphic.c'],['../graphic_8h.html#a23b9fa70028e3206b5628b9cdc2702f9',1,'blue_background():&#160;graphic.c']]],
+  ['buffer_28',['buffer',['../game_8c.html#a56ed84df35de10bdb65e72b184309497',1,'buffer():&#160;graphic.c'],['../graphic_8c.html#a56ed84df35de10bdb65e72b184309497',1,'buffer():&#160;graphic.c'],['../menu_8c.html#a024f97bceddc0b639c4377793df2d62c',1,'buffer():&#160;graphic.c'],['../proj_8c.html#a56ed84df35de10bdb65e72b184309497',1,'buffer():&#160;graphic.c']]],
+  ['button_5fe_29',['BUTTON_E',['../mouse_8h.html#ad29858f6d8ab73f2970f41cb21a76b84a50b3ddd55c720f44dc0ea842e9eed0d0',1,'mouse.h']]],
+  ['byte_30',['byte',['../group__timer.html#ga37d15361e9d111d7f18f943d85964f51',1,'timer_status_field_val']]],
+  ['bytearray_31',['byteArray',['../game_8c.html#a90af14d0e1977d769e00776ecb74fe23',1,'byteArray():&#160;menu.c'],['../menu_8c.html#a90af14d0e1977d769e00776ecb74fe23',1,'byteArray():&#160;menu.c'],['../mouse_8c.html#a90af14d0e1977d769e00776ecb74fe23',1,'byteArray():&#160;menu.c'],['../proj_8c.html#a90af14d0e1977d769e00776ecb74fe23',1,'byteArray():&#160;proj.c']]]
+];

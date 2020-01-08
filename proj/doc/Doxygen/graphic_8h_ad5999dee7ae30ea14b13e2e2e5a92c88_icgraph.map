@@ -1,0 +1,6 @@
+<map id="get_vres" name="get_vres">
+<area shape="rect" id="node1" title=" " alt="" coords="472,5,543,32"/>
+<area shape="rect" id="node2" href="$game_8h.html#ac5aaa38ff3762d478e6d3c25460e2c1f" title="Checks the hp of each cannon. If a hp is zero, than the game is over." alt="" coords="293,5,424,32"/>
+<area shape="rect" id="node3" href="$game_8h.html#a9e8bcd794765b7fe53f2684856fb4b9e" title="Draw the game and parses the information to the mem_video." alt="" coords="163,5,245,32"/>
+<area shape="rect" id="node4" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,115,32"/>
+</map>

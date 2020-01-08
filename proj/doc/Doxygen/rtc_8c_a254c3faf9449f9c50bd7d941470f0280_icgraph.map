@@ -1,0 +1,5 @@
+<map id="read_rtc" name="read_rtc">
+<area shape="rect" id="node1" title="This functions reads a register from the RTC." alt="" coords="265,5,335,32"/>
+<area shape="rect" id="node2" href="$proj_8h.html#a6e84fbc1d2baca5ce4321a3f4edeee51" title="Checks if it&#39;s day or not." alt="" coords="163,5,217,32"/>
+<area shape="rect" id="node3" href="$proj_8c.html#a2a16f651eccbd248e1ad3b3b924b143b" title=" " alt="" coords="5,5,115,32"/>
+</map>
