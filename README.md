@@ -3,7 +3,7 @@
 This is a repository contaning studies, labs and projects from LCOM lectures.  
 Project and labs done with Allan Sousa.  
 __Final grade: 18__  
-__Test grade: 16.8__
+__Test grade: 16.8__  
 Subject Goals: [link](https://sigarra.up.pt/feup/en/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=436435)
 
 # Labs 
@@ -19,8 +19,9 @@ Subject Goals: [link](https://sigarra.up.pt/feup/en/ucurr_geral.ficha_uc_view?pv
 
 __Project grade: 16.75__ 
 
-[Report](proj/doc/report/report.pdf)
+[Report](proj/doc/report/report.pdf)  
 Here are some images of the game. For more details read the report.  
+You also can see how game works by watching this video: [link](https://www.youtube.com/watch?v=BuhD9kO39I4)
 
 ![Menu](proj/doc/report/latex/Menu.png)
 ![askname](proj/doc/report/latex/askname.png)
